@@ -15,6 +15,3 @@ class Elf(Player):
             f"{self.nickname} is playing a song"
             f" on the {self._musical_instrument}"
         )
-
-    def declared(self) -> None:
-        pass

@@ -17,6 +17,3 @@ class DwarfBlacksmith(Dwarf):
 
     def get_rating(self) -> int:
         return self._skill_level
-
-    def declared(self) -> None:
-        pass
